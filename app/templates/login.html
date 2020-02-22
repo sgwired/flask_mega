@@ -17,9 +17,6 @@
     {% endfor %}
   </p>
   <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
-  <p>
-    {{ form.location.label }}<br />{{ form.location(rows=3, multiple=True) }}
-  </p>
   <p>{{ form.submit() }}</p>
 </form>
 {% endblock %}
