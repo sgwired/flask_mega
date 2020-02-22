@@ -1,0 +1,7 @@
+.flaskenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+DS_Store
